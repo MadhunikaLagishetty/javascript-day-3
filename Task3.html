@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <div>
+    <h2>Javascript Forloop example</h2>
+    <input type="button" value="Click Me" onclick="myFunction()">
+  </div>
+  <script>
+    function myFunction() 
+    {
+      var fruits = ["apple","banana","papaya"];
+
+      console.log('Actual fruits', fruits);
+      var findpapayaIndex = fruits.findIndex(fruit => fruit === "papaya");
+      console.log('papaya index: ', findpapayaIndex);
+    }
+
+  </script>
+</body>
+</html>
